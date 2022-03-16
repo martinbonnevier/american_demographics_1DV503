@@ -4,11 +4,9 @@ import pandas as pd
 import numpy as np
 import keyboard
 import os
-import PySimpleGUI as sg
 import colorama
 from colorama import Fore
 from pyfiglet import figlet_format
-import sys
 
 # connection to db - creates a connection to the database in MySQL workbench
 dbConnection = mysql.connector.connect(user='root',
